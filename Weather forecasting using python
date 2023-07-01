@@ -1,2 +1,15 @@
-jjwnnnw
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
 
+Data = pd.read_csv('weather-datase.csv')
+Data.head()
+
+Data = Data.drop(['Daily Summary','Wind Bearing (degrees)','Summary','Precip Type','Temperature (C)','Loud Cover','Visibility (km)','Pressure (millibars)'],axis=1)
+Data.head()
+
+Data['Formatted Date'] = pd.to_datetime(Data['Formatted Date'],utc=True)
+Data =Data.set_index('Formatted Date')
+
+ds = Data[['Apparent Temperature (C)','Humidity','Wind Speed (km/h)']].resample('MS').mean()
+ds
