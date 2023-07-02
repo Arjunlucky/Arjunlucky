@@ -21,3 +21,4 @@ plt.title('Variation of Apparent temperature v/s Humidity', fontsize = 25);
 plt.legend(loc=0, fontsize =12);
 plt.xticks(fontsize = 15);
 plt.yticks(fontsize=13);
+
