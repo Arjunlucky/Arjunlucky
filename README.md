@@ -1,3 +1,9 @@
+DATA SET
+
+![image](https://github.com/Arjunlucky/Arjunlucky/assets/96239766/9919c1ba-56e1-422c-ab0d-d0719d232418)
+
+
+
 
 Weather forecasting is the application of science and technology to predict the conditions of the atmosphere for a given location and time. 
 
