@@ -15,3 +15,7 @@ In weather forecasting, data preparation involves cleaning the data, removing ou
 
 Data normalization may also be necessary to ensure that all variables are on the same scale
 ![image](https://github.com/Arjunlucky/Arjunlucky/assets/96239766/19d68210-bca4-4b5e-a58e-65578e4c1b55)
+
+Data Pre-Processing:
+
+The column weather contains the data value in the string form and we need to predict the weather data so for that we need to process the data.
