@@ -20,7 +20,8 @@ Data Pre-Processing:
 
 The column weather contains the data value in the string form and we need to predict the weather data so for that we need to process the data.
 
-H98nIBwQyAZ+QAAAABJRU5ErkJggg==.jpg
+
+![image](https://github.com/Arjunlucky/Arjunlucky/assets/96239766/9dc0bdca-bfa6-48e6-b66e-e2a496da298b)
 
 
 
