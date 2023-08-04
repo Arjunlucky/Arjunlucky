@@ -22,3 +22,9 @@ plt.legend(loc=0, fontsize =12);
 plt.xticks(fontsize = 15);
 plt.yticks(fontsize=13);
 
+
+Data pre processing:
+
+from sklearn.preprocessing import LabelEncoder
+
+df['weather']=LabelEncoder().fit_transform(df['weather'])
